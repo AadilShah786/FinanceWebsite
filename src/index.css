@@ -2,3 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgba(153, 158, 232, 0.21);
+    /* scroll-behavior: smooth; */
+}

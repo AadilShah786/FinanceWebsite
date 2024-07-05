@@ -6,7 +6,12 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend:  {
+      screens: {
+        'xs': {'max': '480px'}, // Define custom max screen size for xs
+        
+      },
+    },
   },
   plugins: [],
 }
