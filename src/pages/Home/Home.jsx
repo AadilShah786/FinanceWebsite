@@ -7,19 +7,22 @@ import Pricing from './Pricing'
 import Testimonials from './Testimonials'
 import Footer from './Footer'
 import Faq from './Faq'
+import Navbar from './Nav'
+
 
 function App() {
     const [count, setCount] = useState(0)
 
     return (
         <>
-            <Hero2/>
-            <WhyChooseUs/>
+            <Navbar />
+            <Hero2 />
+            <WhyChooseUs />
             {/* <HowItWorks/> */}
-            <Pricing/>
-            <Testimonials/>
-            <Faq/>
-            <Footer/>
+            <Pricing />
+            <Testimonials />
+            <Faq />
+            {/* <Footer /> */}
         </>
     )
 }

@@ -49,7 +49,7 @@ function Faq() {
                                     <span className="font-semibold transition duration-100 md:text-lg">{item.question}</span>
                                     <span className={`text-indigo-500 transform ${activeIndex === index ? 'rotate-180' : 'rotate-0'}`}>
                                         <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                                            <path stroke-linecap="round" stroke-linejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
+                                            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                                         </svg>
                                     </span>
                                 </div>

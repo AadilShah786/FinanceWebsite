@@ -45,15 +45,15 @@ function Hero2() {
                             <div className="w-full px-4 ml-auto mr-auto text-center">
                                 <div className=" flex flex-col items-center justify-center">
                                     <h1 className="text-white font-semibold text-3xl sm:text-5xl 
-                                    xs:text-5xl">
+                                    xs:text-4xl">
                                         {heroData.title}
                                     </h1>
                                     <h2 className="text-white text-xl mt-4
-                                    xs:text-3xl">
+                                    xs:text-2xl">
                                         {heroData.subtitle}
                                     </h2>
                                     <p className="mt-4 text-sm sm:text-lg text-gray-300 w-full sm:w-8/12 lg:w-6/12
-                                    xs:text-lg">
+                                    xs:text-base">
                                         {heroData.description}
                                     </p>
                                     <div className="mt-7">
